@@ -2,10 +2,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-model = pickle.load(open("credit_model.pkl", "rb"))
-encoders = pickle.load(open("encoders.pkl", "rb"))
-target_encoder = pickle.load(open("target_encoder.pkl", "rb"))
-
 #  Load model & encoder 
 model = pickle.load(open("credit_model.pkl", "rb"))
 encoders = pickle.load(open("encoders.pkl", "rb"))
