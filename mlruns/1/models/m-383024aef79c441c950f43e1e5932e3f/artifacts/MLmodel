@@ -1,0 +1,23 @@
+artifact_path: file:c:/Users/LENOVO/Documents/KULYEAH/MODEL DEPLOYMENT/AOL/mlruns/1/models/m-383024aef79c441c950f43e1e5932e3f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-383024aef79c441c950f43e1e5932e3f
+model_size_bytes: 391517
+model_uuid: m-383024aef79c441c950f43e1e5932e3f
+prompts: null
+run_id: 66897c91785c42b28d273aa1a4e63212
+utc_time_created: '2026-06-29 17:37:53.849050'

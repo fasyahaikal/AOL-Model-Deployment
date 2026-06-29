@@ -1,0 +1,23 @@
+artifact_path: file:c:/Users/LENOVO/Documents/KULYEAH/MODEL DEPLOYMENT/AOL/mlruns/1/models/m-fe4707cf4be648b38ea70de2632f2a20/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.5.2
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-fe4707cf4be648b38ea70de2632f2a20
+model_size_bytes: 7693102
+model_uuid: m-fe4707cf4be648b38ea70de2632f2a20
+prompts: null
+run_id: 64768ec8412e4926aff6ec6646e98e22
+utc_time_created: '2026-06-29 18:06:01.104876'
